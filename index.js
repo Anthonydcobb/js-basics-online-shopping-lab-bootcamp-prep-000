@@ -68,5 +68,3 @@ addToCart('pancake batter')
 addToCart('eggs')
 addToCart('jam')
 addToCart('stuff')
-
-
