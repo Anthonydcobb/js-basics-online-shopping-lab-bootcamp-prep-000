@@ -25,7 +25,7 @@ function viewCart() {
     return `Your shopping cart is empty.`
   }
   if (cart.length === 1) {
-    return str += `${cart[i]["itemName"]} at $${cart[i]["itemPrice"]}.`
+    return str += `${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}.`
   }
   for (let i = 0; i < cart.length; i++) {
     if (cart.length > 1 && i === cart.length - 1) {
