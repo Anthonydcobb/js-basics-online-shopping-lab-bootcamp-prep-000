@@ -16,7 +16,7 @@ let randomNum = Math.floor(Math.random() * 100);
    itemPrice: randomNum
  }
  cart.push(newItem)
- return cart;
+ return `${newItem['itemName']} has been added to your cart.`;
 }
 
 function viewCart() {
